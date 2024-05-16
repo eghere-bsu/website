@@ -3,7 +3,7 @@ import { Popover, PopoverButton, PopoverPanel, Transition } from "@headlessui/re
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { Fragment } from "react";
 
-export default function Home() {
+const Navbar = () => {
    return (
       <Popover className={"container mx-auto flex items-center border-b-2 px-6 py-2 h-24"}>
       <h1 className="font-bold">Ethan Ghere</h1>
@@ -66,3 +66,5 @@ export default function Home() {
     </Popover>
    )
 }
+
+export default Navbar;
